@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
     - name: cart
-      image: 584455519448.dkr.ecr.us-east-1.amazonaws.com/frontend:2.0.0
+      image: 584455519448.dkr.ecr.us-east-1.amazonaws.com/frontend:2.0.1
 
 
 ---

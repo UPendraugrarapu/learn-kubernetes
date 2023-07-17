@@ -8,7 +8,10 @@ spec:
   containers:
     - name: cart
       image: 584455519448.dkr.ecr.us-east-1.amazonaws.com/cart:2.0.0
-
+  initcontainers:
+    - name: aws-ssm-param-store
+      image: 584455519448.dkr.ecr.us-east-1.amazonaws.com/aws-ssm-param-store:2.0.0
+      args: []
 
 ---
 apiVersion: v1

@@ -6,5 +6,6 @@ spec:
   containers:
     - name: test
       image: 584455519448.dkr.ecr.us-east-1.amazonaws.com/schema-loader:2.0.0
+      args: [ "one","two" ]
 
 
